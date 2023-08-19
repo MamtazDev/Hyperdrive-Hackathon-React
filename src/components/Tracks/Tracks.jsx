@@ -27,8 +27,8 @@ const Tracks = () => {
     },
   ];
   return (
-    <div className="tracks_parent mb-5">
-      <div className="container">
+    <div className="mb-5">
+      <div className="container sec_bg">
         <div>
           <div className="tracks">
             {tabs.map((tab, index) => (

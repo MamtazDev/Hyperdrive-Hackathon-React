@@ -6,11 +6,33 @@ body {
   max-width: 1390px;
 }
 
-.tracks_parent .container {
+.sec_bg {
   background-image: url('./assets/sectionBar1.png'), url('./assets/sectionBar2.png'), url('./assets/sectionBar3.png'), url('./assets/sectionBar4.png');
   background-position: top left, top right, bottom right, bottom left;
   background-repeat: no-repeat;
   padding: 65px;
+}
+
+.sec_title {
+  color: var(--gray-10, #DEECE4);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 56px;
+}
+
+.sec_title span {
+  background: var(--gray-40, #DEECE4);
+  width: 4px;
+  height: 4px;
+  display: inline-block;
+}
+
+.sec_title span:last-child {
+  width: 22px;
 }
 
 .brand_slider {
@@ -158,4 +180,63 @@ p {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
+}
+
+.judges .judge_card {
+  margin-bottom: 48px;
+}
+
+.judges img {
+  background-image: url('./assets/judge_bg.png');
+  background-repeat: no-repeat;
+  padding: 1px;
+  margin-bottom: 24px;
+  filter: brightness(.80);
+}
+
+.judge_card:hover img {
+  filter: brightness(1);
+}
+
+.judge_card:hover h6 {
+  color: #14F195;
+}
+
+.judge_card:hover p {
+  color: #b6ccc5;
+}
+
+.judges h6 {
+  color: var(--gray-10, #DEECE4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+
+.judges p {
+  color: var(--gray-30, #7A8E87);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.support h1 {
+  color: var(--gray-10, #DEECE4);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 113px;
+}
+
+.support {
+  max-width: 978px;
+  margin: auto;
+}
+
+.support_card {
+  margin-bottom: 64px;
 }
