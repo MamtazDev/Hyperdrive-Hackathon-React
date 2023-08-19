@@ -240,3 +240,30 @@ p {
 .support_card {
   margin-bottom: 64px;
 }
+
+.footer {
+  padding: 64px 0;
+}
+
+.footer h6 {
+  color: var(--accents-green, #14F195);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.footer h1 {
+  color: var(--gray-10, #DEECE4);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.footer p {
+  color: var(--gray-30, #7A8E87);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
