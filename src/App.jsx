@@ -6,11 +6,13 @@ import Judges from "./components/Judges";
 import Support from "./components/Support";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Banner from "./components/Banner";
 
 const App = () => {
   return (
     <div>
       <Header />
+      <Banner />
       <Tracks />
       <BrandSlider />
       <Judges />

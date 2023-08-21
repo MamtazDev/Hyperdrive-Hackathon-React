@@ -216,6 +216,448 @@ button {
   width: 22px;
 }
 
+
+
+
+.hero {
+  padding-top: 120px;
+  padding-bottom: 230px;
+  background-image: url('../images/heroLeftDots1.png'), url('../images/herorightDot.png');
+  background-position: top 23% left, top 17% right;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+
+
+.heroInner {
+  max-width: 800px;
+}
+
+.heroInner h1 {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: 'Unbounded';
+  font-size: 96px;
+  font-weight: 500;
+  line-height: 96px;
+  margin-bottom: 5px;
+}
+
+.heroSpan {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: 'Unbounded';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 12px;
+  display: block;
+}
+
+.heroPara {
+  color: var(--gray-10, #DEECE4);
+  text-align: center;
+  font-family: "NB Architekt";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.timeClock p {
+  color: var(--accents-green, #14F195);
+  text-align: center;
+  font-family: "NB Architekt";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.greenDots {
+  width: 4px;
+  height: 4px;
+  background: var(--accents-green, #14F195);
+  border-radius: 50%;
+}
+
+.greenLine {
+  width: 30px;
+  height: 4px;
+  background: var(--accents-green, #14F195);
+}
+
+.joinHeroBtn {
+  padding: 14px 33px;
+  position: relative;
+}
+
+.conerHeroBtn {
+  background: linear-gradient(315deg, transparent 10px, #14F195 0) bottom right;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.heroDarkLine {
+  width: 3px;
+  height: 44px;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  background: #010102;
+}
+
+.joinHeroBtn a {
+  color: #010102;
+  text-align: center;
+  font-family: 'Blender Pro';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.installer_292 {
+  color: var(--gray-30, #7A8E87);
+  text-align: center;
+  font-family: 'NB Architekt';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.kickStart {
+  background-image: url("../images/bgPlus.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kickStartTop {
+  background-image: url("../images/elementGlobe.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 404px;
+  padding: 100px;
+  background-size: contain;
+  position: relative;
+}
+
+.greenText {
+  padding: 8px 16px;
+  color: var(--background, #050B0C);
+  font-family: 'NB Architekt';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background: var(--accents-green, #14F195);
+}
+
+.videoText {
+  margin-top: -58px;
+  margin-right: 100px;
+}
+
+.videoText p {
+  color: var(--gray-30, #7A8E87);
+  text-align: center;
+  font-family: 'NB Architekt';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.grayDots {
+  width: 4px;
+  height: 4px;
+  background: var(--gray-40, #313937);
+}
+
+.grayLinevideo {
+  width: 22px;
+  height: 4px;
+  background: var(--gray-40, #313937);
+}
+
+.playVideo {
+  position: relative;
+}
+
+
+.playBtn {
+  position: relative;
+  background: transparent;
+  margin-top: 50px;
+  /* position: absolute;
+  top: 40%;
+  left: 47%; */
+}
+
+
+.playVideo::before {
+  position: absolute;
+  content: "";
+  width: 6%;
+  bottom: 18%;
+  right: 22.2%;
+  height: 1px;
+  background: #14F195;
+}
+
+
+.playVideo::after {
+  position: absolute;
+  content: "";
+  top: 68%;
+  right: 29%;
+  width: 17%;
+  height: 18px;
+  transform: skewX(45deg);
+  border-right: 1px solid #14F195;
+  border-top: 1px solid #14F195;
+}
+
+.globeLine {
+  position: absolute;
+  bottom: 20%;
+  left: 4%;
+  clip-path: polygon(2% 0%, 98% 0%, 100% 100%, 0% 100%);
+  background-color: #313937;
+  height: 6px;
+  width: 399px;
+
+}
+
+
+.kickStartBottom span {
+  color: var(--white, #FFF);
+  font-family: 'Blender Pro';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.kickStartBottom p {
+  color: var(--gray-10, #DEECE4);
+  font-family: 'NB Architekt';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+
+.lineLeftBg {
+  background-image: url("../images/line409.png");
+  background-repeat: no-repeat;
+  background-position: bottom 62% left;
+  background-size: contain;
+  padding-top: 40px;
+}
+
+.lineRightBg {
+  background-image: url("../images/lineRightBg.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding-top: 40px;
+  padding-bottom: 19px;
+}
+
+.kickStartInner p {
+  padding: 8px 16px;
+  background: var(--gray-50, #222826);
+  color: var(--gray-30, #7A8E87);
+  text-align: center;
+  font-family: 'NB Architekt';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.solanaHackathon {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.solanaHackathon span {
+  color: var(--gray-10, #DEECE4);
+  font-family: 'Blender Pro';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.followers {
+  margin-left: 72px;
+  margin-top: -20px;
+}
+
+.followers p {
+  color: var(--gray-10, #DEECE4);
+  font-family: 'Blender Pro';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.followers span {
+  color: var(--gray-20, #B6CCC5);
+  font-family: 'NB Architekt';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.bgRightDot {
+  background-image: url('../images/leftTop.png'), url('../images/rightTop.png'), url('../images/rightBottom.png'), url('../images/leftbottom.png'), url("../images/elementSpaceControls.png");
+  background-position: top left, top right, bottom right, bottom left, center right;
+  background-repeat: no-repeat;
+  padding: 65px;
+}
+
+.prizeLeft {
+  background-image: url('../images/leftTop.png'), url('../images/rightTop.png'), url('../images/rightBottom.png'), url('../images/leftbottom.png'), url('../images/prizeLeftLine.png');
+  background-position: top left, top right, bottom right, bottom left, center left;
+  background-repeat: no-repeat;
+  padding: 65px 40px 72px 85px;
+}
+
+.bgGlow {
+  position: relative;
+  z-index: 99999;
+}
+
+.bgGlow::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 50%;
+  z-index: -9999;
+  background: transparent;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 1250px 556px #1C1C11;
+  -moz-box-shadow: 0 0 1250px 556px #1C1C11;
+  box-shadow: 0 0 1250px 556px #1C1C11;
+}
+
+.prizeGap {
+  gap: 75px
+}
+
+.bgGreenGlow {
+  position: relative;
+}
+
+.bgGreenGlow::before {
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 70%;
+  z-index: -9999;
+  background: transparent;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 250px 332px #202E1D;
+  -moz-box-shadow: 0 0 250px 332px #202E1D;
+  box-shadow: 0 0 250px 332px #202E1D;
+}
+
+
+.k50 {
+  color: var(--accents-green, #14F195);
+  font-family: 'Blender Pro';
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.k50Span {
+  color: var(--gray-30, #7A8E87);
+  font-family: 'NB Architekt';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.champion span {
+  color: var(--white, #FFF);
+  font-family: 'Blender Pro';
+  font-size: 32px;
+  font-weight: 700;
+  display: block;
+}
+
+.champion p {
+  color: var(--gray-10, #DEECE4);
+  font-family: 'NB Architekt';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.purpleGlow {
+  position: relative;
+  z-index: 99999;
+  background-image: url('../images/leftTop.png'), url('../images/rightTop.png'), url('../images/rightBottom.png'), url('../images/leftbottom.png'), url('../images/awardRightLine.png');
+  background-position: top left, top right, bottom right, bottom left, center right;
+  background-repeat: no-repeat;
+  padding: 65px;
+}
+
+.purpleGlow::before {
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 70%;
+  z-index: -9999;
+  background: transparent;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 250px 332px #1A1324;
+  -moz-box-shadow: 0 0 250px 332px #1A1324;
+  box-shadow: 0 0 250px 332px #1A1324;
+}
+
+
+.usdcText p {
+  color: var(--accents-green, #14F195);
+  font-family: 'Blender Pro';
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  text-transform: uppercase;
+}
+
+.usdcText span {
+  color: var(--gray-30, #7A8E87);
+  font-family: 'NB Architekt';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.allPara {
+  color: var(--white, #FFF);
+  font-family: 'Blender Pro';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 31px;
+}
+
+.bgGlow .row {
+  background-image: url('../images/prizeright.png');
+  background-position: center left 42%;
+  background-repeat: no-repeat;
+}
+
+/* Index Page End */
+
+
 .brand_slider {
   color: var(--gray-30, #7A8E87);
   font-size: 14px;
