@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import KickStart from "./components/KickStart";
+import Prizes from "./components/Prizes";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Header />
       <Banner />
       <KickStart />
+      <Prizes />
       <Tracks />
       <BrandSlider />
       <Judges />
