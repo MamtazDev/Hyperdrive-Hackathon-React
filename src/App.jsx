@@ -7,12 +7,14 @@ import Support from "./components/Support";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
+import KickStart from "./components/KickStart";
 
 const App = () => {
   return (
     <div>
       <Header />
       <Banner />
+      <KickStart />
       <Tracks />
       <BrandSlider />
       <Judges />
