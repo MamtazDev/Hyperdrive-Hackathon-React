@@ -534,7 +534,7 @@ button {
   z-index: 99999;
 }
 
-.bgGlow::before {
+/* .bgGlow::before {
   position: absolute;
   content: "";
   bottom: 0;
@@ -545,7 +545,7 @@ button {
   -webkit-box-shadow: 0 0 1250px 556px #1C1C11;
   -moz-box-shadow: 0 0 1250px 556px #1C1C11;
   box-shadow: 0 0 1250px 556px #1C1C11;
-}
+} */
 
 .prizeGap {
   gap: 75px
