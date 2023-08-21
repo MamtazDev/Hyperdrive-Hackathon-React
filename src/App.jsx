@@ -16,6 +16,7 @@ const App = () => {
       <Header />
       <Banner />
       <KickStart />
+      <BrandSlider />
       <Prizes />
       <Tracks />
       <BrandSlider />
