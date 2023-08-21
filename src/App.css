@@ -1,10 +1,191 @@
+@font-face {
+  font-family: 'Blender Pro';
+  src: url("../src/fonts/BlenderPro/BlenderPro-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Blender Pro';
+  src: url("../src/fonts/BlenderPro/BlenderPro-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url("../src/fonts/Unbounded/Unbounded-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url("../src/fonts/Unbounded/Unbounded-SemiBold.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "NB Architekt";
+  src: url("../src/fonts/NBArchitekt/NBArchitekt-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "NB Architekt";
+  src: url("../src/fonts/NBArchitekt/NBArchitekt-Regular.otf");
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 body {
-  background-color: black;
+  background: var(--background, #050B0C);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: none;
+}
+
+button {
+  outline: none;
+  border-width: nopne;
+  border-style: none;
+  border-color: none;
+  border-image: none;
 }
 
 .container {
   max-width: 1390px;
 }
+
+.mb_40 {
+  margin-bottom: 35px;
+}
+
+/* Header Start */
+.navbar {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.navbar-nav {
+  gap: 32px;
+  clip-path: polygon(7% 8%, 100% 9%, 100% 97%, 2% 97%, 2% 37%);
+  padding-left: 20px;
+  background-color: #000;
+  position: relative;
+}
+
+.content {
+  background-color: #7A8E87;
+  clip-path: polygon(7% 4%, 100% 5%, 100% 100%, 1% 100%, 1% 37%);
+}
+
+.grayLine {
+  height: 30px;
+  width: 3px;
+  background-color: #7A8E87;
+  position: absolute;
+  bottom: 0;
+  left: 1.5%;
+}
+
+
+
+.nav-link {
+  color: var(--gray-10, #DEECE4);
+  text-align: center;
+  font-family: "NB Architekt";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 6px;
+  margin-bottom: 5px;
+}
+
+
+.jointBtn {
+  padding: 10px 24px;
+  position: relative;
+}
+
+.darkLine {
+  position: absolute;
+  background: #010102;
+  height: 30px;
+  width: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.rightConer {
+  background: linear-gradient(315deg, transparent 10px, #14F195 0) bottom right;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+.jointBtn a {
+  color: var(--background, #050B0C);
+  text-align: center;
+  font-family: "Blender Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+
+
+.nav-link:focus-visible,
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #14F195
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/* Header End */
+
 
 .sec_bg {
   background-image: url('./assets/sectionBar1.png'), url('./assets/sectionBar2.png'), url('./assets/sectionBar3.png'), url('./assets/sectionBar4.png');

@@ -5,10 +5,12 @@ import Tracks from "./components/Tracks/Tracks";
 import Judges from "./components/Judges";
 import Support from "./components/Support";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <div>
+      <Header />
       <Tracks />
       <BrandSlider />
       <Judges />
