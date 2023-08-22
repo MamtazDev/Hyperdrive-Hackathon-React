@@ -668,6 +668,7 @@ button {
   font-size: 14px;
   font-weight: 300;
   line-height: 20px;
+  white-space: nowrap;
 }
 
 .slick-next,
@@ -1090,6 +1091,9 @@ p {
     align-items: center;
   }
 
+  .solanagap {
+    gap: 32px;
+  }
 
   .bgGlow .row {
     background-image: url('./assets/prizerightres.png');

@@ -85,7 +85,7 @@ const KickStart = () => {
                 </span>
                 <img className="img-fluid" src={soalnaline} alt="" />
               </div>
-              <div className="d-flex gap-2 flex-column flex-lg-row">
+              <div className="solanagap d-flex gap-2 flex-column flex-lg-row">
                 <div className="followerParent">
                   <img src={developers} alt="developers number" />
                   <div className="followers">
