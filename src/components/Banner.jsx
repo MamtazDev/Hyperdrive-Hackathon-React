@@ -21,20 +21,20 @@ const Banner = () => {
               Solana blockchain.
             </p>
 
-            <div className="timeClock mb_40 d-flex justify-content-center align-items-center gap-3">
-              <div className="d-flex align-items-center gap-2 text-center">
+            <div className="timeClock  mb_40 d-flex justify-content-center align-items-center gap-3">
+              <div className="d-flex align-items-center gap-1 gap-lg-2 text-center">
                 <p>09</p>
                 <div className="greenDots"></div>
                 <p>01</p>
                 <div className="greenDots"></div>
                 <p>2023</p>
               </div>
-              <div className="d-flex align-items-center gap-2 text-center">
+              <div className="d-flex align-items-center gap-1 gap-lg-2 text-center">
                 <div className="greenLine"></div>
                 <div className="greenDots"></div>
                 <div className="greenDots"></div>
               </div>
-              <div className="d-flex align-items-center gap-2 text-center">
+              <div className="d-flex align-items-center gap-1 gap-lg-2 text-center">
                 <p>09</p>
                 <div className="greenDots"></div>
                 <p>01</p>

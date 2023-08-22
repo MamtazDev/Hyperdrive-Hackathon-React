@@ -534,7 +534,7 @@ button {
   z-index: 99999;
 }
 
-/* .bgGlow::before {
+.bgGlow::before {
   position: absolute;
   content: "";
   bottom: 0;
@@ -545,7 +545,12 @@ button {
   -webkit-box-shadow: 0 0 1250px 556px #1C1C11;
   -moz-box-shadow: 0 0 1250px 556px #1C1C11;
   box-shadow: 0 0 1250px 556px #1C1C11;
-} */
+}
+
+.followerParent {
+  position: relative;
+  z-index: 99999;
+}
 
 .prizeGap {
   gap: 75px
@@ -890,3 +895,307 @@ p {
   font-weight: 300;
   line-height: 20px;
 }
+
+
+
+
+
+@media only screen and (min-width:1440px) {}
+
+@media only screen and (max-width:1024px) {
+
+  .container {
+    max-width: 1000px;
+  }
+
+  .hero {
+    padding-bottom: 150px;
+  }
+
+  .heroInner h1 {
+    font-size: 76px;
+  }
+
+  .heroSpan {
+    font-size: 14px;
+  }
+
+  .heroPara {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .timeClock p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .bgRightDot {
+    padding: 36px;
+  }
+
+  .videoText {
+    margin-right: 0;
+    margin-top: -45px;
+  }
+
+  .playVideo::after {
+    width: 15%;
+  }
+
+  .globeLine {
+    left: 0%;
+    width: 260px;
+  }
+
+  .followers p {
+    font-size: 40px;
+  }
+
+  .solanaHackathon span {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+
+
+  .allPara {
+    font-size: 18px;
+  }
+
+  .kickStartBottom span {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .lineRightBg {
+    padding-top: 0;
+    padding-bottom: 16px;
+  }
+
+
+  .lineLeftBg {
+    background: none;
+  }
+
+  .kickStart {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width:991px) {
+
+  .responsiveButton {
+    display: flex;
+    align-items: center;
+  }
+
+  .jointBtn {
+    padding: 8px 16px;
+    height: 40px;
+  }
+
+  .content {
+    background-color: none !important;
+    clip-path: none !important;
+  }
+
+  .navbar-nav .grayLine {
+    display: none;
+  }
+
+  .navbar-nav li {
+    border: 1px solid #313937;
+    width: 100%;
+  }
+
+  .navbar-nav>.nav-item {
+    border-top: none;
+  }
+
+  .navbar-nav:first-child {
+    border-top: 1px solid #313937;
+    padding: 0;
+  }
+
+  .navbar-nav {
+    gap: 0;
+    clip-path: unset;
+    /* padding-left: 20px; */
+    background-color: #000;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+
+  .videoText {
+    margin-top: 100px;
+    margin-right: 138px;
+  }
+
+  .kickStartTop {
+    margin-bottom: 130px;
+  }
+
+  .playVideo::before {
+    width: 1px;
+    height: 38%;
+    left: 47%;
+    right: 0;
+    bottom: -72%;
+  }
+
+  .playVideo::after {
+    top: 94%;
+    left: 47%;
+    width: 3%;
+    height: 36%;
+    transform: skewY(323deg);
+    border-bottom: 1px solid #14F195;
+    border-top: 0;
+    border-right: 1px solid #14F195;
+  }
+
+  .greenText {
+    margin-bottom: 30px;
+  }
+
+  .globeLine {
+    left: 30%;
+    bottom: -20%;
+  }
+
+  .solanaHackathon img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .followers {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .followerParent {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+
+  .bgGlow .row {
+    background-image: url('../images/prizerightres.png');
+    background-position: center 20% center !important;
+    background-repeat: no-repeat;
+  }
+
+  .prizeLeft {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media only screen and (max-width:600px) {
+
+  .hero {
+    background-image: none;
+  }
+
+  .heroInner h1 {
+    font-size: 40px;
+    line-height: normal;
+  }
+
+  .heroSpan {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .heroPara {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .joinHeroBtn a {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .kickStartTop {
+    padding: 60px;
+    height: 300px;
+  }
+
+
+  .greenText {
+    font-size: 16px;
+  }
+
+  .videoText {
+    margin-right: 0;
+    margin-left: -55px;
+  }
+
+  .globeLine {
+    left: 17px;
+    bottom: -50%;
+  }
+
+  .greenText {
+    margin-bottom: 0;
+  }
+
+
+  .playVideo::after {
+    left: 45%;
+    width: 8%;
+  }
+
+  .playVideo::before {
+    left: 45%;
+  }
+
+  .kickStartBottom {
+    margin-top: 80px;
+  }
+
+  .lineRightBg {
+    padding-top: 0;
+    padding-bottom: 8px;
+  }
+
+  .prizeLeft {
+    padding: 36px;
+  }
+
+  .purpleGlow {
+    padding: 36px;
+  }
+
+  .bgGlow::before {
+    width: 100%;
+    overflow: hidden;
+    display: none;
+  }
+
+  .bgGreenGlow::before {
+    width: 100%;
+    overflow: hidden;
+    top: 65%;
+
+  }
+
+  .purpleGlow::before {
+    width: 100%;
+    overflow: hidden;
+    top: 70%;
+    left: 70%;
+  }
+}
+
+@media only screen and (max-width:425px) {}
+
+@media only screen and (max-width:390px) {}

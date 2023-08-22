@@ -54,15 +54,18 @@ const KickStart = () => {
             <div className="row align-items-center">
               <div className="col-12 col-lg-5">
                 <div className="lineLeftBg d-flex align-items-center gap-2">
-                  <p>
+                  <p className="d-none d-lg-block">
                     WRuEMlsngaQJfrm
-                    <img src={timer} alt="" />
+                    <img className="ms-2" src={timer} alt="" />
                   </p>
                 </div>
               </div>
               <div className="col-12 col-lg-7">
                 <div className="lineRightBg justify-content-between d-flex align-items-center">
-                  <p>// ABOUT</p>
+                  <p className="d-flex align-items-center gap-2">
+                    // ABOUT{" "}
+                    <img className="d-block d-lg-none" src={timer} alt="" />
+                  </p>
                   <img src={kickstart} alt="" />
                 </div>
               </div>
@@ -82,22 +85,22 @@ const KickStart = () => {
                 </span>
                 <img src={soalnaline} alt="" />
               </div>
-              <div className="d-flex gap-2">
-                <div>
+              <div className="d-flex gap-2 flex-column flex-lg-row">
+                <div className="followerParent">
                   <img src={developers} alt="developers number" />
                   <div className="followers">
                     <p>48,000+</p>
                     <span>developers</span>
                   </div>
                 </div>
-                <div>
+                <div className="followerParent">
                   <img src={projects} alt="Projects launched" />
                   <div className="followers">
                     <p>3,000+</p>
                     <span>Projects launched</span>
                   </div>
                 </div>
-                <div>
+                <div className="followerParent">
                   <img src={venture} alt="in venture funding" />
                   <div className="followers">
                     <p>$600M+</p>
