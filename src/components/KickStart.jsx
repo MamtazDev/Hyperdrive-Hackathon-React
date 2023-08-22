@@ -83,7 +83,7 @@ const KickStart = () => {
                   Where elite
                   <br /> founders start their crypto journey
                 </span>
-                <img src={soalnaline} alt="" />
+                <img className="img-fluid" src={soalnaline} alt="" />
               </div>
               <div className="d-flex gap-2 flex-column flex-lg-row">
                 <div className="followerParent">

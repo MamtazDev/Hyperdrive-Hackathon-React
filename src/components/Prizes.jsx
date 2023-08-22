@@ -40,7 +40,7 @@ const Prizes = () => {
                     <span>USDC</span>
                   </div>
                   <p className="allPara">PUBLIC GOODS AWARD</p>
-                  <img src={pga} alt="Line" />
+                  <img className="img-fluid" src={pga} alt="Line" />
                 </div>
                 <div className="mb-5">
                   <div className="usdcText d-flex align-items-center gap-2">
@@ -48,7 +48,7 @@ const Prizes = () => {
                     <span>USDC</span>
                   </div>
                   <p className="allPara">UNIVERSITY AWARD</p>
-                  <img src={pga} alt="Line" />
+                  <img className="img-fluid" src={pga} alt="Line" />
                 </div>
                 <div className="mb-5">
                   <div className="usdcText d-flex align-items-center gap-2">

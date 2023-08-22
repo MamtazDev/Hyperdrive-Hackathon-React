@@ -67,7 +67,7 @@ const Support = () => {
         <div className="row">
           {supporters.map((supporter, index) => (
             <div className="support_card col-4 col-lg-3" key={index}>
-              <img src={supporter.pic} alt="" />
+              <img className="img-fluid" src={supporter.pic} alt="" />
             </div>
           ))}
         </div>
