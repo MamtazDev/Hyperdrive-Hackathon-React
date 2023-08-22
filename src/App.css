@@ -679,6 +679,11 @@ p {
   margin-bottom: 0;
 }
 
+.track_parent {
+  position: relative;
+  z-index: 999999;
+}
+
 .tracks {
   display: flex;
   flex-wrap: wrap;
@@ -1087,13 +1092,17 @@ p {
 
 
   .bgGlow .row {
-    background-image: url('../images/prizerightres.png');
+    background-image: url('./assets/prizerightres.png');
     background-position: center 20% center !important;
     background-repeat: no-repeat;
   }
 
   .prizeLeft {
     margin-bottom: 20px;
+  }
+
+  .footer {
+    padding: 32px;
   }
 
 }
@@ -1195,7 +1204,3 @@ p {
     left: 70%;
   }
 }
-
-@media only screen and (max-width:425px) {}
-
-@media only screen and (max-width:390px) {}

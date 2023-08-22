@@ -9,6 +9,7 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import KickStart from "./components/KickStart";
 import Prizes from "./components/Prizes";
+import dot from "./assets/footer_bg.png";
 
 const App = () => {
   return (
@@ -22,6 +23,9 @@ const App = () => {
       <BrandSlider />
       <Judges />
       <Support />
+      <div>
+        <img className="img-fluid w-100" src={dot} alt="" />
+      </div>
       <Footer />
     </div>
   );

@@ -4,7 +4,13 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="container footer_container">
-        <h6>SOLANA Foundation Hackathon Official Rules</h6>
+        <a
+          target="_blank"
+          href="https://solana.com/hackathon-grizzlython-official-rules-2023.pdf"
+        >
+          <h6>SOLANA Foundation Hackathon Official Rules</h6>
+        </a>
+
         <h1>DISCLAIMER</h1>
         <p>
           The Solana HYPERDRIVE Hackathon is a competition where projects will

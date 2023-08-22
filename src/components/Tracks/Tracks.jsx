@@ -27,7 +27,7 @@ const Tracks = () => {
     },
   ];
   return (
-    <div className="mb-5">
+    <div className="mb-3 track_parent">
       <div className="container sec_bg">
         <div>
           <div className="tracks">

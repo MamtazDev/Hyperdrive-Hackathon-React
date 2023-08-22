@@ -41,7 +41,7 @@ const BrandSlider = () => {
     ],
   };
   return (
-    <div className="brand_slider mb-5">
+    <div className="brand_slider mb-3">
       <Slider {...settings}>
         <div>. SOLANA HACKATHON</div>
         <div>. SOLANA HACKATHON</div>
