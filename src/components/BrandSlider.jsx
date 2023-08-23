@@ -43,24 +43,66 @@ const BrandSlider = () => {
   return (
     <div className="brand_slider mb-3">
       <Slider {...settings}>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
-        <div>. SOLANA HACKATHON</div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
+        <div className="d-flex align-items-center gap-2">
+          <p className="mb-2">.</p> SOLANA HACKATHON
+        </div>
       </Slider>
     </div>
   );
