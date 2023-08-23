@@ -1033,7 +1033,7 @@ p {
 
 @media only screen and (max-width:768px) {
   .sec_bg {
-    padding: 36px;
+    padding: 36px 12px;
   }
 
   .videoText {
