@@ -16,7 +16,11 @@ const KickStart = () => {
           <div className="kickStartTop text-center">
             <div className="globeLine"></div>
             <div className="playVideo">
-              <button className="playBtn">
+              <button
+                className="playBtn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
                 <img src={play} alt="Play" />
               </button>
             </div>
@@ -108,6 +112,36 @@ const KickStart = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="modal fade"
+        id="exampleModal"
+        tabIndex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div className="modal-body">
+              <iframe
+                className="w-100 h-100"
+                src="https://www.youtube.com/embed/RxhMM9sosQA"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
         </div>
