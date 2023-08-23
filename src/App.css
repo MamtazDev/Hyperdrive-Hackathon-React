@@ -903,11 +903,6 @@ p {
 }
 
 
-
-
-
-@media only screen and (min-width:1440px) {}
-
 @media only screen and (max-width:1024px) {
 
   .container {
@@ -1037,6 +1032,9 @@ p {
 }
 
 @media only screen and (max-width:768px) {
+  .sec_bg {
+    padding: 36px;
+  }
 
   .videoText {
     margin-top: 100px;
@@ -1103,6 +1101,20 @@ p {
 
   .prizeLeft {
     margin-bottom: 20px;
+  }
+
+  .track {
+    width: 100%;
+  }
+
+  .track button {
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    gap: 5px;
+
   }
 
   .footer {

@@ -50,6 +50,52 @@ const Judges = () => {
       name: "ANATOLY YAKOVENKO",
       designation: "Co-founder Solana Labs",
     },
+    {
+      pic: man,
+      name: "ANATOLY YAKOVENKO",
+      designation: "Co-founder Solana Labs",
+    },
+    {
+      pic: man,
+      name: "ANATOLY YAKOVENKO",
+      designation: "Co-founder Solana Labs",
+    },
+    {
+      pic: man,
+      name: "ANATOLY YAKOVENKO",
+      designation: "Co-founder Solana Labs",
+    },
+    {
+      pic: man,
+      name: "ANATOLY YAKOVENKO",
+      designation: "Co-founder Solana Labs",
+    },
+    {
+      pic: man,
+      name: "ANATOLY YAKOVENKO",
+      designation: "Co-founder Solana Labs",
+    },
+    {
+      pic: man,
+      name: "ANATOLY YAKOVENKO",
+      designation: "Co-founder Solana Labs",
+    },
+    {
+      pic: man,
+      name: "ANATOLY YAKOVENKO",
+      designation: "Co-founder Solana Labs",
+    },
+    {
+      pic: man,
+      name: "ANATOLY YAKOVENKO",
+      designation: "Co-founder Solana Labs",
+    },
+    {
+      pic: man,
+      name: "ANATOLY YAKOVENKO",
+      designation: "Co-founder Solana Labs",
+    },
+   
   ];
   return (
     <div className="judges mb-5">

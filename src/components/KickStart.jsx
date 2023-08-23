@@ -11,7 +11,7 @@ import soalnaline from "../assets/solanaLine.png";
 const KickStart = () => {
   return (
     <section>
-      <div className="kickStart mb-5">
+      <div className="kickStart mb-5 mx-2 mx-lg-0">
         <div className="container mb-2 bgRightDot">
           <div className="kickStartTop text-center">
             <div className="globeLine"></div>
