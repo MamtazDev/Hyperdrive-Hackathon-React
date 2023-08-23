@@ -8,7 +8,7 @@ const Prizes = () => {
       <div className="container mb-5">
         <div className="bgGlow">
           <div className="row">
-            <div className="col-12 col-lg-5">
+            <div className="col-12 col-lg-5 ppppp">
               <div className="bgGreenGlow prizeLeft">
                 <h2 className="sec_title">
                   PRIZES <span></span> <span></span>

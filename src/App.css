@@ -654,13 +654,13 @@ button {
   margin-bottom: 31px;
 }
 
+
+/* Index Page End */
 .bgGlow .row {
   background-image: url('./assets/prizeright.png');
   background-position: center left 42%;
   background-repeat: no-repeat;
 }
-
-/* Index Page End */
 
 
 .brand_slider {
@@ -1094,9 +1094,14 @@ p {
   }
 
   .bgGlow .row {
+    background-image: unset !important;
+  }
+
+  .ppppp {
     background-image: url('./assets/prizerightres.png');
-    background-position: center 20% center !important;
+    background-position: bottom;
     background-repeat: no-repeat;
+    z-index: 99999999;
   }
 
   .prizeLeft {
