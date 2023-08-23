@@ -61,7 +61,7 @@ const Support = () => {
     },
   ];
   return (
-    <div className="support">
+    <div className="support plus_bg">
       <div className="container">
         <h1>WITH SUPPORT FROM</h1>
         <div className="row">

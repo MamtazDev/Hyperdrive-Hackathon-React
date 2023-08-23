@@ -325,7 +325,7 @@ button {
   line-height: 20px;
 }
 
-.kickStart {
+.plus_bg {
   background-image: url("./assets/bgPlus.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -979,7 +979,7 @@ p {
     background: none;
   }
 
-  .kickStart {
+  .plus_bg {
     padding: 0;
   }
 }
