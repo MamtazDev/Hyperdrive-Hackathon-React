@@ -52,7 +52,7 @@ const Tabdetails = ({ children1, children2 }) => {
         </div>
       </div>
       <div className="row align-items-end mx-0">
-        <div className="d-none d-md-block col-12 col-lg-6">
+        <div className="d-none d-lg-block col-12 col-lg-6">
           <p>PRESENTED BY</p>
           <img className="img-fluid" src={solana} alt="" />
         </div>
@@ -64,7 +64,7 @@ const Tabdetails = ({ children1, children2 }) => {
             </div>
           ))}
         </div>
-        <div className="d-block d-md-none col-12 col-lg-6">
+        <div className="d-block d-lg-none col-12 col-lg-6">
           <p className="mb-3">PRESENTED BY</p>
           <img className="img-fluid" src={solana} alt="" />
         </div>
