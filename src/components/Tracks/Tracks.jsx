@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Tabdetails from "../utils/Tabdetails";
 import up from "../../assets/chevron-up.png";
 import down from "../../assets/chevron-down.png";
+import sidebg from "../../assets/trackRightBg.png";
+import sidebg2 from "../../assets/Group.png";
 
 const Tracks = () => {
   const [step, setStep] = useState(0);
@@ -41,64 +43,81 @@ const Tracks = () => {
     },
   ];
   return (
-    <div className="mb-3 track_parent mx-2 mx-lg-0 plus_bg">
-      <div className="container sec_bg">
-        <div>
-          <div className="tracks">
-            {tabs.map((tab, index) => (
-              <>
-                <div
-                  key={index}
-                  className="track d-flex align-items-center gap-1"
-                >
-                  <div
-                    className={
-                      step === index ? "active_border btn_border" : "btn_border"
-                    }
-                  >
-                    <p></p>
-                    <p></p>
-                  </div>
+    <div style={{ marginBottom: "24px" }} className=" track_parent mx-2 mx-lg-0 plus_bg">
+      <div className="container sec_bg px-0">
+        <div className="d-flex gap-1 align-items-center justify-content-between">
+          <img className="d-none d-lg-block" src={sidebg} alt="" />
+          <div>
 
-                  <button
-                    className={step === index && "active_btn"}
-                    onClick={() => setStep(step === index ? null : index)}
-                  >
-                    {tab.name}{" "}
-                    <img
-                      className="d-block d-md-none"
-                      src={step === index ? up : down}
-                      alt=""
-                    />
-                  </button>
-                  <div
-                    className={
-                      step === index ? "active_border btn_border" : "btn_border"
-                    }
-                  >
-                    <p></p>
-                    <p></p>
-                  </div>
-                </div>
-                <div className="d-block d-md-none">
-                  {index === step && (
-                    <Tabdetails
-                      children1={tab.name}
-                      children2={tab.description}
-                    />
+            <h2 className="sec_title">
+              TRACKS <span></span> <span></span>
+            </h2>
+
+
+            <div>
+              <div className="tracks">
+                {tabs.map((tab, index) => (
+                  <>
+                    <div
+                      key={index}
+                      className="track d-flex align-items-center gap-1"
+                    >
+                      <div
+                        className={
+                          step === index ? "active_border btn_border" : "btn_border"
+                        }
+                      >
+                        <p></p>
+                        <p></p>
+                      </div>
+
+                      <button
+                        className={step === index && "active_btn"}
+                        onClick={() => setStep(step === index ? null : index)}
+                      >
+                        {tab.name}{" "}
+                        <img
+                          className="d-block d-md-none"
+                          src={step === index ? up : down}
+                          alt=""
+                        />
+                      </button>
+                      <div
+                        className={
+                          step === index ? "active_border btn_border" : "btn_border"
+                        }
+                      >
+                        <p></p>
+                        <p></p>
+                      </div>
+                    </div>
+                    <div className="d-block d-md-none">
+                      {index === step && (
+                        <Tabdetails
+                          children1={tab.name}
+                          children2={tab.description}
+                        />
+                      )}
+                    </div>
+                  </>
+                ))}
+              </div>
+              {tabs.map((tab, index) => (
+                <div className="d-none d-md-block" key={index}>
+                  {step === index && (
+                    <Tabdetails children1={tab.name} children2={tab.description} />
                   )}
                 </div>
-              </>
-            ))}
-          </div>
-          {tabs.map((tab, index) => (
-            <div className="d-none d-md-block" key={index}>
-              {step === index && (
-                <Tabdetails children1={tab.name} children2={tab.description} />
-              )}
+              ))}
             </div>
-          ))}
+          </div>
+          <img className="d-none d-lg-block" src={sidebg2} alt="" />
         </div>
+
+
+
+
+
       </div>
     </div>
   );

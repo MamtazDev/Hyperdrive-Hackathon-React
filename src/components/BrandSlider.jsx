@@ -41,7 +41,7 @@ const BrandSlider = () => {
     ],
   };
   return (
-    <div className="brand_slider mb-3">
+    <div style={{ marginBottom: "20px" }} className="brand_slider">
       <Slider {...settings}>
         <div className="d-flex align-items-center gap-2">
           <p className="mb-2">.</p> SOLANA HACKATHON

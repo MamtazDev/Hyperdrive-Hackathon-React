@@ -61,15 +61,18 @@ const Support = () => {
     },
   ];
   return (
-    <div className="support plus_bg">
-      <div className="container">
-        <h1>WITH SUPPORT FROM</h1>
-        <div className="row">
-          {supporters.map((supporter, index) => (
-            <div className="support_card col-4 col-lg-3" key={index}>
-              <img className="img-fluid" src={supporter.pic} alt="" />
-            </div>
-          ))}
+    <div className="plus_bg">
+
+      <div className="support ">
+        <div className="container">
+          <h1>WITH SUPPORT FROM</h1>
+          <div className="row">
+            {supporters.map((supporter, index) => (
+              <div className="support_card col-4 col-lg-3" key={index}>
+                <img className="img-fluid" src={supporter.pic} alt="" />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

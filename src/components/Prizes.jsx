@@ -5,10 +5,10 @@ import prize from "../assets/prizeLogo.png";
 const Prizes = () => {
   return (
     <section>
-      <div className="container mb-5">
+      <div style={{ marginBottom: "24px" }} className="container">
         <div className="bgGlow">
           <div className="row">
-            <div className="col-12 col-lg-5 ppppp">
+            <div className="col-12 col-lg-5 ppppp ps-lg-0">
               <div className="bgGreenGlow prizeLeft">
                 <h2 className="sec_title">
                   PRIZES <span></span> <span></span>
@@ -32,7 +32,7 @@ const Prizes = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-lg-7">
+            <div className="col-12 col-lg-7 pe-lg-0">
               <div className="sec_bg purpleGlow h-100 my-auto">
                 <div className="mb-5">
                   <div className="usdcText d-flex align-items-center gap-2">

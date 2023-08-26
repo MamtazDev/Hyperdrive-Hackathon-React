@@ -6,7 +6,7 @@ import line from "../assets/half-line.png";
 const Banner = () => {
   return (
     <section className="mx-2 mx-lg-0">
-      <div className="container sec_bg p-0 mb-5">
+      <div style={{ marginBottom: "24px" }} className="container sec_bg p-0">
         <div className="hero">
           <div className="heroInner mx-auto text-center">
             <img
