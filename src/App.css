@@ -1118,6 +1118,10 @@ p {
     background-image: unset !important;
   }
 
+  .plus_bg {
+    background-size: unset !important;
+  }
+
   .ppppp {
     background-image: url('./assets/prizerightres.png');
     background-position: bottom;

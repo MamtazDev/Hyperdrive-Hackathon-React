@@ -43,16 +43,17 @@ const Tracks = () => {
     },
   ];
   return (
-    <div style={{ marginBottom: "24px" }} className=" track_parent mx-2 mx-lg-0 plus_bg">
+    <div
+      style={{ marginBottom: "24px" }}
+      className=" track_parent mx-2 mx-lg-0 plus_bg"
+    >
       <div className="container sec_bg px-0">
-        <div className="d-flex gap-1 align-items-center justify-content-between">
-          <img className="d-none d-lg-block" src={sidebg} alt="" />
+        <div className="d-flex gap-4 align-items-center">
+          <img className="d-none d-lg-block img-fluid" src={sidebg} alt="" />
           <div>
-
             <h2 className="sec_title">
               TRACKS <span></span> <span></span>
             </h2>
-
 
             <div>
               <div className="tracks">
@@ -64,7 +65,9 @@ const Tracks = () => {
                     >
                       <div
                         className={
-                          step === index ? "active_border btn_border" : "btn_border"
+                          step === index
+                            ? "active_border btn_border"
+                            : "btn_border"
                         }
                       >
                         <p></p>
@@ -84,7 +87,9 @@ const Tracks = () => {
                       </button>
                       <div
                         className={
-                          step === index ? "active_border btn_border" : "btn_border"
+                          step === index
+                            ? "active_border btn_border"
+                            : "btn_border"
                         }
                       >
                         <p></p>
@@ -105,19 +110,19 @@ const Tracks = () => {
               {tabs.map((tab, index) => (
                 <div className="d-none d-md-block" key={index}>
                   {step === index && (
-                    <Tabdetails children1={tab.name} children2={tab.description} />
+                    <Tabdetails
+                      children1={tab.name}
+                      children2={tab.description}
+                    />
                   )}
                 </div>
               ))}
             </div>
           </div>
-          <img className="d-none d-lg-block" src={sidebg2} alt="" />
+          <div className="ms-auto">
+            <img className="d-none d-lg-block img-fluid" src={sidebg2} alt="" />
+          </div>
         </div>
-
-
-
-
-
       </div>
     </div>
   );
