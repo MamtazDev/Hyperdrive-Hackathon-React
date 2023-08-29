@@ -3,7 +3,6 @@ import icon from "../../assets/tracks-tab-icon.png";
 import line from "../../assets/track-details-line.png";
 import solana from "../../assets/solana.png";
 
-
 const Tabdetails = ({ children1, children2 }) => {
   const prizes = [
     {
@@ -30,7 +29,7 @@ const Tabdetails = ({ children1, children2 }) => {
   return (
     <div className="tab_details">
       <div className="row mx-0">
-        <div className="col-12 col-lg-6">
+        <div className="col-12 col-lg-6 p-0">
           <div className="d-flex flex-column flex-md-row align-items-start gap-3">
             <img className="img-fluid" src={icon} alt="" />
             <div>

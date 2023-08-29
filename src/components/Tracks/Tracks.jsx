@@ -48,9 +48,11 @@ const Tracks = () => {
       className=" track_parent mx-2 mx-lg-0 plus_bg"
     >
       <div className="container sec_bg px-0">
-        <div className="d-flex gap-4 align-items-center">
-          <img className="d-none d-lg-block img-fluid" src={sidebg} alt="" />
-          <div>
+        <div className="row">
+          <div className="col-1">
+            <img className="d-none d-lg-block img-fluid" src={sidebg} alt="" />
+          </div>
+          <div className="col-12 col-lg-10">
             <h2 className="sec_title">
               TRACKS <span></span> <span></span>
             </h2>
@@ -119,8 +121,14 @@ const Tracks = () => {
               ))}
             </div>
           </div>
-          <div className="ms-auto">
-            <img className="d-none d-lg-block img-fluid" src={sidebg2} alt="" />
+          <div className="col-1">
+            <div className="d-flex justify-content-end">
+              <img
+                className="d-none d-lg-block img-fluid"
+                src={sidebg2}
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>

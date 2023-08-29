@@ -923,6 +923,11 @@ p {
   font-family: "NB Architekt";
 }
 
+@media only screen and (max-width:1770px) {
+  .plus_bg {
+    background-size: unset !important;
+  }
+}
 
 @media only screen and (max-width:1024px) {
 
@@ -1116,10 +1121,6 @@ p {
 
   .bgGlow .row {
     background-image: unset !important;
-  }
-
-  .plus_bg {
-    background-size: unset !important;
   }
 
   .ppppp {
