@@ -60,7 +60,7 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <div className="jointBtn rightConer">
+            <div className="jointBtn rightConer d-none d-lg-block">
               <span className="darkLine"></span>
               <a href="#">JOIN NOW</a>
             </div>

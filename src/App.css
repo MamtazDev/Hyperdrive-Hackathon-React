@@ -101,6 +101,10 @@ button {
   position: relative;
 }
 
+.navbar-nav li:last-child {
+  border: none;
+}
+
 .content {
   background-color: #7A8E87;
   clip-path: polygon(7% 4%, 100% 5%, 100% 100%, 1% 100%, 1% 37%);
